@@ -1,7 +1,10 @@
 [package]
-name = "bevy_lib_template"
+name = "bevy_inventory_system"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = { version = "*", default-features = false, features = ["dynamic_linking"] }
+bevy = { version = "*", features = ["dynamic_linking"] }
+bevy_flat_arrays = { path = "../bevy_flat_arrays" }
+
+rand = { version = "*" }
