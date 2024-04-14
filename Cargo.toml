@@ -5,6 +5,6 @@ edition = "2021"
 
 [dependencies]
 bevy = { version = "*", features = ["dynamic_linking"] }
-bevy_flat_arrays = { path = "../bevy_flat_arrays" }
+bevy_flat_arrays = { git = "https://github.com/DirkChristianBecker/bevy_flat_arrays.git" }
 
 rand = { version = "*" }
